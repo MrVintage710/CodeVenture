@@ -1,0 +1,19 @@
+{
+  "name": "projectsnowfox",
+  "version": "1.0.0",
+  "description": "A website of some sort",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrVintage710/ProjectSnowFox.git"
+  },
+  "author": "Brooks Palin, Shane Blanchard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrVintage710/ProjectSnowFox/issues"
+  },
+  "homepage": "https://github.com/MrVintage710/ProjectSnowFox#readme"
+}
