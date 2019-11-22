@@ -1,33 +1,47 @@
 ﻿using System;
 using UnityEngine;
 using Jint;
+using UnityEngine.Events;
 
 public class CharacterMovment : MonoBehaviour {
 
     private static Engine engine;
     public CharacterController2D Controller;
-    public SeeEvent seeEvent;
+    public GameEvent seeEvent;
     public StartEvent startEvent;
+    public GameEvent onEvent;
 
-    public String onSee;
-    public String onStart;
+    [TextArea] public String onSee;
+    [TextArea] public String onNear;
+    [TextArea] public String onStart;
     
-    [Range(-1,1)]
-    public float speed = 0.0f;
+    [Range(0,10)]
+    public float speed = 1.0f;
     public int direction = 1;
+    public bool shouldJump = false;
 
     public CapsuleCollider2D seeCollider;
 
     private void Awake() {
         if (engine == null) {
-
             engine = new Engine();
             initEngine(engine);
         }
 
         if (seeEvent == null) {
-            seeEvent = new SeeEvent();
-            seeEvent.AddListener(seeable => { engine.Execute(onSee); });
+            seeEvent = new GameEvent();
+            seeEvent.AddListener(obstacle => {
+                engine.SetValue("obstacle", obstacle)
+                      .Execute(onSee);
+            });
+        }
+         
+        if (onEvent == null) {
+            onEvent = new GameEvent();
+            onEvent.AddListener(obstacle => {
+                engine.SetValue("obstacle", obstacle)
+                      .Execute(onNear);
+            });
         }
 
 
@@ -41,13 +55,19 @@ public class CharacterMovment : MonoBehaviour {
         startEvent.Invoke();
     }
 
-    private void OnTriggerEnter(Collider other) {
-        Debug.Log("I see this");
+    public void invokeSeeEvent(IObstacle obstacle) {
+        seeEvent.Invoke(obstacle);
+    }
+    
+    public void invokeOnEvent(IObstacle obstacle) {
+        onEvent.Invoke(obstacle);
     }
 
     // Update is called once per frame
     void Update() {
-        Controller.Move(speed * direction, false, false);
+        Controller.Move(speed * direction, false, shouldJump);
+
+        if (shouldJump) shouldJump = false;
     }
 
     private void initEngine(Engine engine) {
@@ -57,14 +77,15 @@ public class CharacterMovment : MonoBehaviour {
         engine.SetValue("goLeft", new Action(this.goLeft));
         engine.SetValue("goRight", new Action(this.goRight));
         engine.SetValue("stop", new Action(this.stop));
+        engine.SetValue("jump", new Action(this.jump));
     }
 
     private void walk() {
-        speed = 0.4f;
+        speed = 1f;
     }
 
     private void run() {
-        speed = 0.8f;
+        speed = 2f;
     }
 
     private void stop() {
@@ -77,5 +98,9 @@ public class CharacterMovment : MonoBehaviour {
 
     private void goRight() {
         direction = 1;
+    }
+
+    private void jump() {
+        shouldJump = true;
     }
 }

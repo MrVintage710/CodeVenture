@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\aweso\.Rider2019.1\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\aweso\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_ProjectSnowFox.-136679432.00" t="ExcludeRecursive" />
+    <e p="C:\Users\aweso\Desktop\Projects\ProjectSnowFox" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="link.xml" t="Include" />
+        <e p="Plugins" t="Include">
+          <e p="GitHub" t="Include">
+            <e p="Editor" t="Include">
+              <e p="credits.txt" t="Include" />
+              <e p="eula.txt" t="Include" />
+              <e p="ExtensionLoader.cs" t="Include" />
+              <e p="UnityAPIWrapper.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CharacterController2D.cs" t="Include" />
+          <e p="CharacterMovment.cs" t="Include" />
+          <e p="CheckPoint.cs" t="Include" />
+          <e p="events" t="Include">
+            <e p="GameEvent.cs" t="Include" />
+            <e p="StartEvent.cs" t="Include" />
+          </e>
+          <e p="obstacles" t="Include">
+            <e p="Cliff.cs" t="Include" />
+            <e p="IObstacle.cs" t="Include" />
+          </e>
+          <e p="OnDetector.cs" t="Include" />
+          <e p="SightDetector.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="ProjectSnowFox.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8bcf4521-2cbc-4b4e-bb9a-78bb25e1dcc9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSnowFox/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.ProjectSnowFox/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/events/GameEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/obstacles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/obstacles/IObstacle.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/obstacles/IObstacle.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/character.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/character.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/events/ISeeable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/events/ISeeable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/events/SeeEvent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/events/SeeEvent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/events/GameEvent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/platform.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/platform.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile10.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile11.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile6.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile7.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tile9.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tileset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/tileset.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+              <folding>
+                <marker date="1574444199228" expanded="true" signature="6:70" ph="..." />
+                <marker date="1574444199228" expanded="true" signature="118:2584" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="596:1356" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="626:704" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="736:943" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="823:931" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="983:1189" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="1068:1177" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="1224:1350" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="1383:1419" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="1472:1514" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="1570:1611" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="1670:1785" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="1830:2244" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="2270:2297" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="2322:2349" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="2375:2404" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="2432:2463" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="2492:2522" ph="{...}" />
+                <marker date="1574444199228" expanded="true" signature="2548:2582" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/OnDetector.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+              <folding>
+                <marker date="1574444199242" expanded="true" signature="6:92" ph="..." />
+                <marker date="1574444199242" expanded="true" signature="134:431" ph="{...}" />
+                <marker date="1574444199242" expanded="true" signature="235:429" ph="{...}" />
+                <marker date="1574444199242" expanded="true" signature="290:423" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/events/GameEvent.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+              <folding>
+                <marker date="1574442372848" expanded="true" signature="73:79" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/obstacles/IObstacle.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding>
+                <marker date="1574151843261" expanded="true" signature="28:51" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/obstacles/Cliff.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+              <folding>
+                <marker date="1574152163805" expanded="true" signature="6:78" ph="..." />
+                <marker date="1574152163805" expanded="true" signature="125:360" ph="{...}" />
+                <marker date="1574152163805" expanded="true" signature="197:218" ph="{...}" />
+                <marker date="1574152163805" expanded="true" signature="276:297" ph="{...}" />
+                <marker date="1574152163805" expanded="true" signature="327:358" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/SightDetector.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <folding>
+                <marker date="1574183635754" expanded="true" signature="6:92" ph="..." />
+                <marker date="1574183635754" expanded="true" signature="137:431" ph="{...}" />
+                <marker date="1574183635754" expanded="true" signature="234:429" ph="{...}" />
+                <marker date="1574183635754" expanded="true" signature="289:423" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SightDetector.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/obstacles/IObstacle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CheckPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/events/GameEvent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/obstacles/Cliff.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/OnDetector.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/events/IObtacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/events/IObstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/obstacles/IObstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/obstacles/Cliff.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SightDetector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/events/SeeEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/events/GameEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/OnDetector.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1913" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="events" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8bcf4521-2cbc-4b4e-bb9a-78bb25e1dcc9" name="Default Changelist" comment="" />
+      <created>1574063213489</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574063213489</updated>
+      <workItem from="1574063218201" duration="1084000" />
+      <workItem from="1574150001061" duration="5932000" />
+      <workItem from="1574219698324" duration="609000" />
+      <workItem from="1574441387506" duration="3300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10925000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1097496" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/events/IObtacle.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/events/ISeeable.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CheckPoint.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <marker date="1573415002615" expanded="false" signature="6:90" ph="..." />
+            <marker date="1573415002615" expanded="true" signature="132:370" ph="{...}" />
+            <marker date="1573415002615" expanded="true" signature="234:250" ph="{...}" />
+            <marker date="1573415002615" expanded="true" signature="308:368" ph="{...}" />
+            <marker date="1573415002615" expanded="true" signature="338:362" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/obstacles/Cliff.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <marker date="1574152163805" expanded="true" signature="6:78" ph="..." />
+            <marker date="1574152163805" expanded="true" signature="125:360" ph="{...}" />
+            <marker date="1574152163805" expanded="true" signature="197:218" ph="{...}" />
+            <marker date="1574152163805" expanded="true" signature="276:297" ph="{...}" />
+            <marker date="1574152163805" expanded="true" signature="327:358" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SightDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+          <folding>
+            <marker date="1574183635754" expanded="true" signature="6:92" ph="..." />
+            <marker date="1574183635754" expanded="true" signature="137:431" ph="{...}" />
+            <marker date="1574183635754" expanded="true" signature="234:429" ph="{...}" />
+            <marker date="1574183635754" expanded="true" signature="289:423" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/events/GameEvent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <marker date="1574442372848" expanded="true" signature="73:79" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/obstacles/IObstacle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <marker date="1574151843261" expanded="true" signature="28:51" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController2D.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="63" column="55" selection-start-line="63" selection-start-column="51" selection-end-line="63" selection-end-column="55" />
+          <folding>
+            <marker date="1573415002613" expanded="true" signature="6:44" ph="..." />
+            <marker date="1573415002613" expanded="true" signature="96:4688" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="1708:1890" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="1919:2485" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="1981:2188" ph="/* The player is grounded if a circlecast to the groundcheck position hits anything designated as ground ... */" />
+            <marker date="1573415002613" expanded="true" signature="2346:2482" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="2396:2478" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="2541:4422" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="2621:2839" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="2806:2835" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="2941:4229" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="2980:3309" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="3010:3083" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="3314:3556" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="3476:3551" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="3997:4047" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="4175:4225" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="4289:4419" ph="{...}" />
+            <marker date="1573415002613" expanded="true" signature="4445:4686" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMovment.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="32" column="46" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="46" />
+          <folding>
+            <marker date="1574444199228" expanded="true" signature="6:70" ph="..." />
+            <marker date="1574444199228" expanded="true" signature="118:2584" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="596:1356" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="626:704" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="736:943" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="823:931" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="983:1189" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="1068:1177" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="1224:1350" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="1383:1419" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="1472:1514" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="1570:1611" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="1670:1785" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="1830:2244" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="2270:2297" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="2322:2349" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="2375:2404" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="2432:2463" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="2492:2522" ph="{...}" />
+            <marker date="1574444199228" expanded="true" signature="2548:2582" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/OnDetector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
+          <folding>
+            <marker date="1574444199242" expanded="true" signature="6:92" ph="..." />
+            <marker date="1574444199242" expanded="true" signature="134:431" ph="{...}" />
+            <marker date="1574444199242" expanded="true" signature="235:429" ph="{...}" />
+            <marker date="1574444199242" expanded="true" signature="290:423" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
